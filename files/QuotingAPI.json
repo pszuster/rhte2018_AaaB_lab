@@ -3,16 +3,19 @@
   "info": {
     "title": "IgniteQuoting",
     "version": "1.0.0"
-  },"host": "quote-3scale-apicast-production.3scale.apps.ocp39pablo.rhtechofficelatam.com:443",
+  },"host": "quoting-3scale-apicast-production.3scale.apps.ocp39pablo.rhtechofficelatam.com:443",
   "basePath": "/",
   "schemes": [
       "https"
   ],
   "paths": {
-    "/webhook/quote": {
+    "/webhook/QuoteAPI": {
       "post": {
         "summary": "Execute an Auto Insurance Quoting",
         "operationId": "quote",
+        "consumes": [
+          "application/json"
+        ],
         "parameters": [
           {
             "name": "body",
