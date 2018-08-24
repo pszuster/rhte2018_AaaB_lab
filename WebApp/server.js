@@ -17,7 +17,7 @@ var port = process.env.PORT || process.env.OPENSHIFT_NODEJS_PORT || 8080,
 
 
 var quotesURL=process.env.QUOTES_URL;
-var quotesSecret=process.env.QUOTES_KEY;
+var quotesSecret=process.env.QUOTES_SECRET;
 var quotesClientId=process.env.QUOTES_CLIENTID;
 var ssoURL = process.env.SSO_URL;
 
