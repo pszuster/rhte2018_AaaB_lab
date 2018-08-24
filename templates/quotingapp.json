@@ -206,28 +206,20 @@
                 },
                 "env": [
                 	{
-                       "name": "PRODS_URL",
-                       "value": "${PRODS_URL}"
+                       "name": "QUOTES_URL",
+                       "value": "${QUOTES_URL}"
                     },
                     {
-                       "name": "STORES_URL",
-                       "value": "${STORES_URL}"
+                       "name": "QUOTES_SECRET",
+                       "value": "${QUOTES_SECRET}"
                     },
                     {
-                       "name": "STOCK_URL",
-                       "value": "${STOCK_URL}"
+                       "name": "QUOTES_CLIENTID",
+                       "value": "${QUOTES_CLIENTID}"
                     },
                     {
-                       "name": "PRODS_KEY",
-                       "value": "${PRODS_KEY}"
-                    },
-                    {
-                       "name": "STORES_KEY",
-                       "value": "${STORES_KEY}"
-                    },
-                    {
-                       "name": "STOCK_KEY",
-                       "value": "${STOCK_KEY}"
+                       "name": "SSO_URL",
+                       "value": "${SSO_URL}"
                     }
                 ]
               }
