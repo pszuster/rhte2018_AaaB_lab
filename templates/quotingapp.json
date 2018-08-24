@@ -311,9 +311,9 @@
       "value": ""
     },
    {
-      "name": "QUOTES_KEY",
-      "displayName": "Quotes API Key",
-      "description": "The Key of the Quotes API",
+      "name": "QUOTES_SECRET",
+      "displayName": "Quotes API Client Secret",
+      "description": "The Client Secret of the Quotes API",
       "value": ""
     },
     {
