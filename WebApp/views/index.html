@@ -94,7 +94,7 @@ keycloak.init({ onLoad: 'login-required' })
 		$("#quoteResponse").hide();
 		$("#quotePrice").val("");
 		
-		driver = {"driverID": $("#driver_driverID").val(), "firstName": $("#driver_firstName").val(), "lastName": $("#driver_lastName").val(), "age": $("#driver_age").val() };
+		driver = {"id": $("#driver_driverID").val(), "firstName": $("#driver_firstName").val(), "lastName": $("#driver_lastName").val(), "age": $("#driver_age").val() };
 		vehicle = {"maker": $("#vehicle_make").val(), "model": $("#vehicle_model").val(), "mileage": $("#vehicle_mileage").val(), "licensePlate": $("#vehicle_licensePlate").val(), "modelYear": $("#vehicle_year").val()};
 		var quoteObj = {"driver": driver, "vehicle": vehicle};
 
